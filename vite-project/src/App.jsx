@@ -1,5 +1,5 @@
 import { Layout } from "antd";
-import {AntHeader} from "./component/AntHeader";
+import {FlowBiteHeader} from "./component/FlowBiteHeader";
 import {AntFooter} from "./component/AntFooter";
 import { AntContent } from "./component/AntContent";
 
@@ -11,7 +11,7 @@ const App = () => {
         margin: 0,
       }}
     >
-      <AntHeader />
+      <FlowBiteHeader />
       <AntContent />
 
       <AntFooter/>

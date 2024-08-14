@@ -1,4 +1,4 @@
-import { AntBreadcrumb } from "./AntBreadCrumb";
+// import { AntBreadcrumb } from "./AntBreadCrumb";
 
 import { Layout, theme } from "antd";
 
@@ -14,7 +14,7 @@ export const AntContent = () => {
         padding: "0 48px",
       }}
     >
-      <AntBreadcrumb />
+      {/* <AntBreadcrumb /> */}
       <div
         style={{
           background: colorBgContainer,
