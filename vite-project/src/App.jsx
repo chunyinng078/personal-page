@@ -1,12 +1,10 @@
-import { Layout, theme } from "antd";
-import { AntBreadcrumb } from "./component/AntBreadCrumb";
+import { Layout } from "antd";
 import {AntHeader} from "./component/AntHeader";
-const { Content, Footer } = Layout;
+import {AntFooter} from "./component/AntFooter";
+import { AntContent } from "./component/AntContent";
 
 const App = () => {
-  const {
-    token: { colorBgContainer, borderRadiusLG },
-  } = theme.useToken();
+
   return (
     <Layout
       style={{
@@ -14,30 +12,10 @@ const App = () => {
       }}
     >
       <AntHeader />
-      <Content
-        style={{
-          padding: "0 48px",
-        }}
-      >
-        <AntBreadcrumb />
-        <div
-          style={{
-            background: colorBgContainer,
-            minHeight: 280,
-            padding: 24,
-            borderRadius: borderRadiusLG,
-          }}
-        >
-          Content
-        </div>
-      </Content>
-      <Footer
-        style={{
-          textAlign: "center",
-        }}
-      >
-        Ant Design ©{new Date().getFullYear()} Created by Ant UED
-      </Footer>
+      <AntContent />
+
+      <AntFooter/>
+
     </Layout>
   );
 };
