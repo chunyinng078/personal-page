@@ -1,1 +1,1 @@
-a project for me to explore ReactJS and ant design
+a project for me to explore UI library (antd + daisyUI +flowbite) usingReactJS
