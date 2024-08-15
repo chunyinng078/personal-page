@@ -1,22 +1,17 @@
 import React from "react";
-import { Layout } from "antd";
 import { FlowBiteHeader } from "./component/FlowBiteHeader";
-import { AntFooter } from "./component/AntFooter";
-import { AntContent } from "./component/AntContent";
+import { About } from "./component/About";
 
 const App = () => {
   return (
-    <>
-      <Layout
-        style={{
-          margin: 0,
-        }}
-      >
-        <FlowBiteHeader />
-        <AntContent />
-        <AntFooter />
-      </Layout>
-    </>
+    <div className="flex flex-col items-center justify-center bg-white dark:bg-black text-black dark:text-white font-sans text-lg">
+      <FlowBiteHeader />
+
+      <div className="mt-4">
+        <About />
+        {/* <AntFooter /> */}
+      </div>
+    </div>
   );
 };
 export default App;

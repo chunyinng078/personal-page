@@ -14,7 +14,6 @@ export const AntContent = () => {
         padding: "0 48px",
       }}
     >
-      {/* <AntBreadcrumb /> */}
       <div
         style={{
           background: colorBgContainer,
