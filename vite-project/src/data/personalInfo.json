@@ -1,6 +1,6 @@
 {
 
-    "name": "John Doe",
+    "name":"Ng Chun Yin, Edwin",
     "email": "example@gmail.com",
     "phone": "123-456-7890",
     "address": "1234 Elm St, Springfield, IL 62701",
@@ -15,10 +15,8 @@
     "snapchat": "",
     "reddit": "",
     "about": {
-        "name":"John Doe",
         "title": "About Me",
-        "year": "5",
-        "email":"example@gmail.com",
+        "email":"chunyinng078@gmail.com",
         "interest": "Web Development"
     }
 }

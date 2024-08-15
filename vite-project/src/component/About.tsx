@@ -17,21 +17,15 @@ export const About = (): JSX.Element => {
             {personalInfo.name}
           </h1>
           <p>
-            I am a {personalInfo.about.year} PhD student
-            {/* in <ExtLink href= {personalInfo.about.department.link}>{personalInfo.about.department.name} </ExtLink>
-						at <ExtLink href= {personalInfo.about.college.link}>{personalInfo.about.college.name} </ExtLink> 
-						advised by <ExtLink href={personalInfo.about.advisor.link}> {personalInfo.about.advisor.name}. </ExtLink> */}
+            I am a web developer and a graduate student at the Hong Kong Polytechnic University of the Philippines. 
+         
             <br />
             <a className="text-sm">✉️ {personalInfo.about.email}</a>
           </p>
-          <p className="text-sm text-gray-600">
-            Research Interest: {personalInfo.about.interest}
+          <p className="text-sm ">
+            Interest: {personalInfo.about.interest}
           </p>
-          <p className="text-sm text-gray-400">
-            Under construction......
-            <br />
-            Re-architecting this site with some modern web technologies.
-          </p>
+
         </div>
       </div>
     </section>
