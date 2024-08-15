@@ -6,7 +6,7 @@ import { AntContent } from "./component/AntContent";
 
 const App = () => {
   return (
-    <html data-theme="cupcake">
+    <>
       <Layout
         style={{
           margin: 0,
@@ -16,7 +16,7 @@ const App = () => {
         <AntContent />
         <AntFooter />
       </Layout>
-    </html>
+    </>
   );
 };
 export default App;
