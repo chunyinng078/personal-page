@@ -1,6 +1,12 @@
+
+
 import React from "react";
 import { FlowBiteHeader } from "./component/FlowBiteHeader";
 import { About } from "./component/About";
+// import { Education } from "./component/Education";
+import { BrowerMockup } from "./component/BrowerMockup";
+
+import "./index.css";
 
 const App = () => {
   return (
@@ -9,6 +15,9 @@ const App = () => {
 
       <div className="mt-4">
         <About />
+        <BrowerMockup />
+        {/* <Education /> */}
+
         {/* <AntFooter /> */}
       </div>
     </div>

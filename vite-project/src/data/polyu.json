@@ -1,0 +1,29 @@
+{
+    "course":[
+        {
+            "courseCode":"COMP4913",
+            "courseName":"Final Year Project",
+            "grade":"A-"
+        },
+        {
+            "courseCode":"COMP4121",
+            "courseName":"E-Commerce Technology design and development",
+            "grade":"A+"
+        },  
+        {
+            "courseCode":"COMP3421",
+            "courseName":"Web Application Development",
+            "grade":"A-"
+        },
+        {
+            "courseCode":"COMP4442",
+            "courseName":"Service and Cloud Computing",
+            "grade":"B+"
+        },
+        {
+            "courseCode":"COMP3335",
+            "courseName":"Database Security",
+            "grade":"A"
+        }
+    ]
+}

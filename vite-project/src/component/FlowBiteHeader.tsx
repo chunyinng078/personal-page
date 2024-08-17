@@ -1,6 +1,6 @@
 import React from "react";
 
-import "tailwindcss/tailwind.css";
+// import "tailwindcss/tailwind.css";
 import { HeaderList } from "./HeaderList";
 import data from "../data/nav.json";
 
