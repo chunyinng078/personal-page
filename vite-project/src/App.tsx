@@ -6,7 +6,7 @@ import { About } from "./component/About";
 // import { Education } from "./component/Education";
 import { BrowerMockup } from "./component/BrowerMockup";
 
-import "./index.css";
+import "./style.css";
 
 const App = () => {
   return (
