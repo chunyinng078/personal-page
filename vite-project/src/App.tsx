@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollToTop from "react-scroll-to-top";
 
 // import { Education } from "./component/Education";
 import "./style.css";
@@ -14,7 +15,6 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="home" element={<Home />} />
         <Route path="projects" element={<Projects />} />
-
       </Routes>
     </BrowserRouter>
   );

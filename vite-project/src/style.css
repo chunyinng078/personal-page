@@ -1414,11 +1414,6 @@ html {
   flex-shrink: 0;
 }
 
-.navbar-end {
-  width: 50%;
-  justify-content: flex-end;
-}
-
 .radio {
   flex-shrink: 0;
   --chkbg: var(--bc);
@@ -2731,6 +2726,11 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
 .bg-slate-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
@@ -2924,10 +2924,6 @@ body{
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:font-normal {
-    font-weight: 400;
   }
 }
 

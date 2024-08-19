@@ -1,5 +1,6 @@
 import React from "react";
 import { FlowBiteHeader } from "./FlowBiteHeader";
+import ScrollToTop from "react-scroll-to-top";
 
 export const Projects = () => {
   return (
@@ -121,6 +122,8 @@ export const Projects = () => {
           </div>
         </div>
       </div>
+      <ScrollToTop className="" smooth />
+
     </div>
   );
 };

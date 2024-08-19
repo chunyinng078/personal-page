@@ -49,11 +49,6 @@ export const FlowBiteHeader = () => {
           ))}
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn" id="backToTop">
-          Back to top
-        </a>
-      </div>
     </div>
   );
 };

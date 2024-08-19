@@ -2,6 +2,7 @@ import React from "react";
 import { FlowBiteHeader } from "./FlowBiteHeader";
 import { About } from "./About";
 import { BrowerMockup } from "./BrowerMockup";
+import ScrollToTop from "react-scroll-to-top";
 
 export const Home = () => {
   return (
@@ -10,6 +11,7 @@ export const Home = () => {
       <div className="mt-4">
         <About />
         <BrowerMockup />
+        <ScrollToTop smooth />
       </div>
     </div>
   );
