@@ -23,7 +23,7 @@ export const Education = () => {
             <span>2022-2024</span>
           </div>
           <div className="collapse-content">
-            <table className="table table-zebra overflow-auto">
+            <table className="table table-zebra overflow-scroll">
               {/* head */}
               <thead>
                 <tr>
@@ -54,7 +54,7 @@ export const Education = () => {
             <span>2020-2022</span>
           </div>
           <div className="collapse-content">
-            <table className="table table-zebra overflow-auto">
+            <table className="table table-zebra overflow-scroll">
               {/* head */}
               <thead>
                 <tr>
