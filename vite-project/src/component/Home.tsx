@@ -2,7 +2,7 @@ import React from "react";
 import { FlowBiteHeader } from "./FlowBiteHeader";
 import { About } from "./About";
 import { BrowerMockup } from "./BrowerMockup";
-
+import BackToUp from "@uiw/react-back-to-top";
 
 export const Home = () => {
   return (
@@ -12,6 +12,7 @@ export const Home = () => {
         <About />
         <BrowerMockup />
       </div>
+      <BackToUp>Top</BackToUp>
     </div>
   );
 };
