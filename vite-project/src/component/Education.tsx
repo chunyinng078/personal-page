@@ -18,7 +18,7 @@ export const Education = () => {
       <div>
         <div className="collapse collapse-plus my-3 bg-base-300">
           <input type="radio" name="my-accordion-3" defaultChecked />
-          <div className="collapse-title flex justify-between text-sm font-medium md:text-xl">
+          <div className="collapse-title flex justify-between text-xs font-medium sm:text-sm md:text-xl">
             <span>PolyU - BSc (Hons) in Computing - CGPA : 3.36/4</span>
             <span>2022-2024</span>
           </div>
@@ -47,7 +47,7 @@ export const Education = () => {
 
         <div className="collapse collapse-plus mb-3 bg-base-300">
           <input type="radio" name="my-accordion-3" />
-          <div className="collapse-title flex justify-between text-sm font-medium md:text-xl">
+          <div className="collapse-title flex justify-between text-xs font-medium sm:text-sm md:text-xl">
             <span>
               IVE - Higher Diploma in Softare Engineering - CGPA : 3.82/4
             </span>
