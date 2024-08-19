@@ -1,26 +1,22 @@
-
-
 import React from "react";
-import { FlowBiteHeader } from "./component/FlowBiteHeader";
-import { About } from "./component/About";
-// import { Education } from "./component/Education";
-import { BrowerMockup } from "./component/BrowerMockup";
 
+// import { Education } from "./component/Education";
 import "./style.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {Home} from "./component/Home";
+import {Projects} from "./component/Projects";
 
 const App = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-white dark:bg-black text-black dark:text-white font-sans text-lg">
-      <FlowBiteHeader />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<div>Home</div>} />
+        <Route index element={<Home />} />
+        <Route path="home" element={<Home />} />
+        <Route path="projects" element={<Projects />} />
 
-      <div className="mt-4">
-        <About />
-        <BrowerMockup />
-        {/* <Education /> */}
-
-        {/* <AntFooter /> */}
-      </div>
-    </div>
+      </Routes>
+    </BrowserRouter>
   );
 };
 export default App;
