@@ -13,11 +13,11 @@ export const WorkExp = () => {
       <div className="card my-2 w-full bg-base-100 shadow-xl">
         <div className="card-body">
           <div className="flex flex-col justify-between text-xl md:flex-row">
-            <span className="font-bold md:font-normal">
+            <span className="font-bold">
               {" "}
               WEDRAGON Technology Limited{" "}
             </span>
-            <span className="font-medium md:font-normal">
+            <span className="font-medium">
               {" "}
               19 Jan 2024 – 24 Feb 2024{" "}
             </span>
@@ -36,10 +36,10 @@ export const WorkExp = () => {
       <div className="card my-2 w-full bg-base-100 shadow-xl">
         <div className="card-body">
           <div className="flex flex-col justify-between text-xl md:flex-row">
-            <span className="font-bold md:font-normal">
+            <span className="font-bold">
               GNS Technology Limited
             </span>
-            <span className="font-medium md:font-normal">
+            <span className="font-medium">
               01 Dec 2023 – 06 Jan 2024
             </span>
           </div>
@@ -53,10 +53,10 @@ export const WorkExp = () => {
       <div className="card my-2 w-full bg-base-100 shadow-xl">
         <div className="card-body">
           <div className="flex flex-col justify-between text-xl md:flex-row">
-            <span className="font-bold md:font-normal">
+            <span className="font-bold">
               YAKOO Technology Limited
             </span>
-            <span className="font-medium md:font-normal">
+            <span className="font-medium">
               05 Jun 2023 – 02 Aug 2023
             </span>
           </div>

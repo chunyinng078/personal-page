@@ -10,12 +10,11 @@ export const Projects = () => {
       <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
         <div className="card-body">
           <div className="flex flex-col justify-between text-xl md:flex-row">
-            <span className="font-bold md:font-normal">
+            <span className="font-bold ">
               Environmental sensing with LoRaWAN - PolyU Computing degree FYP
             </span>
-            <span className="font-medium md:font-normal">2024</span>
+            <span className="font-medium ">2024</span>
           </div>
-          <p className="">Description</p>
           <ul className="list-inside list-disc">
             <li>
               This is a one-person final year school project in PolyU. This
@@ -56,12 +55,11 @@ export const Projects = () => {
       <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
         <div className="card-body">
           <div className="flex flex-col justify-between text-xl md:flex-row">
-            <span className="font-bold md:font-normal">
+            <span className="font-bold ">
               E-commerce website - School project
             </span>
-            <span className="font-medium md:font-normal">2024</span>
+            <span className="font-medium ">2024</span>
           </div>
-          <p className="">Description</p>
           <ul className="list-inside list-disc">
             <li>
               This is a 4 people school project. An online department store was
@@ -95,12 +93,11 @@ export const Projects = () => {
       <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
         <div className="card-body">
           <div className="flex flex-col justify-between text-xl md:flex-row">
-            <span className="font-bold md:font-normal">
+            <span className="font-bold ">
               Single page website - Intership project
             </span>
-            <span className="font-medium md:font-normal">2024</span>
+            <span className="font-medium ">2023</span>
           </div>
-          <p className="">Description</p>
           <ul className="list-inside list-disc">
             <li>
               This is an internship experience to implement the front end of the

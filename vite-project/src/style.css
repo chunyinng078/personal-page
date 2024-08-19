@@ -2053,32 +2053,6 @@ details.collapse summary::-webkit-details-marker {
   margin-top: 0;
 }
 
-.mockup-browser .mockup-browser-toolbar {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-  display: inline-flex;
-  width: 100%;
-  align-items: center;
-  padding-right: 1.4em;
-}
-
-.mockup-browser .mockup-browser-toolbar:where([dir="rtl"], [dir="rtl"] *) {
-  flex-direction: row-reverse;
-}
-
-.mockup-browser .mockup-browser-toolbar:before {
-  content: "";
-  margin-right: 4.8rem;
-  display: inline-block;
-  aspect-ratio: 1 / 1;
-  height: 0.75rem;
-  border-radius: 9999px;
-  opacity: 0.3;
-  box-shadow: 1.4em 0,
-          2.8em 0,
-          4.2em 0;
-}
-
 .mockup-browser .mockup-browser-toolbar .input {
   position: relative;
   margin-left: auto;
@@ -2727,6 +2701,10 @@ details.collapse summary::-webkit-details-marker {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .border {
