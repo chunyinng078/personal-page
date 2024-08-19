@@ -2690,6 +2690,10 @@ details.collapse summary::-webkit-details-marker {
   overflow: scroll;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .rounded-box {
   border-radius: var(--rounded-box, 1rem);
 }
@@ -2724,11 +2728,6 @@ details.collapse summary::-webkit-details-marker {
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-
-.bg-gray-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
 .bg-slate-700 {
