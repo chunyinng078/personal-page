@@ -12,10 +12,16 @@ export const WorkExp = () => {
       {/* short text to show past experiences: company, position, job description  stylyed with tailwind*/}
       <div className="card my-2 w-full bg-base-100 shadow-xl">
         <div className="card-body">
-        <div className="flex flex-col justify-between text-xl md:flex-row">
-  <span className="font-bold md:font-normal"> WEDRAGON Technology Limited </span>
-  <span className="font-medium md:font-normal"> 19 Jan 2024 – 24 Feb 2024 </span>
-</div>
+          <div className="flex flex-col justify-between text-xl md:flex-row">
+            <span className="font-bold md:font-normal">
+              {" "}
+              WEDRAGON Technology Limited{" "}
+            </span>
+            <span className="font-medium md:font-normal">
+              {" "}
+              19 Jan 2024 – 24 Feb 2024{" "}
+            </span>
+          </div>
           <p className="">Software Engineer</p>
           <ul className="list-inside list-disc">
             <li>
