@@ -1,20 +1,20 @@
 import React from "react";
 import { FlowBiteHeader } from "./FlowBiteHeader";
-import BackToUp from '@uiw/react-back-to-top';
+import BackToUp from "@uiw/react-back-to-top";
 
 export const Projects = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-white font-sans text-lg text-black dark:bg-black dark:text-white">
+    <div className="flex flex-col items-center justify-center overflow-hidden bg-white font-sans text-lg text-black dark:bg-black dark:text-white">
       <FlowBiteHeader />
 
       {/* card to show my IT projects */}
       <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
         <div className="card-body">
           <div className="flex flex-col justify-between text-xl md:flex-row">
-            <span className="font-bold ">
+            <span className="font-bold">
               Environmental sensing with LoRaWAN - PolyU Computing degree FYP
             </span>
-            <span className="font-medium ">2024</span>
+            <span className="font-medium">2024</span>
           </div>
           <ul className="list-inside list-disc">
             <li>
@@ -56,10 +56,10 @@ export const Projects = () => {
       <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
         <div className="card-body">
           <div className="flex flex-col justify-between text-xl md:flex-row">
-            <span className="font-bold ">
+            <span className="font-bold">
               E-commerce website - School project
             </span>
-            <span className="font-medium ">2024</span>
+            <span className="font-medium">2024</span>
           </div>
           <ul className="list-inside list-disc">
             <li>
@@ -94,10 +94,10 @@ export const Projects = () => {
       <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
         <div className="card-body">
           <div className="flex flex-col justify-between text-xl md:flex-row">
-            <span className="font-bold ">
+            <span className="font-bold">
               Single page website - Intership project
             </span>
-            <span className="font-medium ">2023</span>
+            <span className="font-medium">2023</span>
           </div>
           <ul className="list-inside list-disc">
             <li>
@@ -123,7 +123,6 @@ export const Projects = () => {
         </div>
       </div>
       <BackToUp>Top</BackToUp>
-
     </div>
   );
 };
