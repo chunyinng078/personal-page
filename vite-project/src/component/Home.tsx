@@ -12,7 +12,6 @@ export const Home = () => {
         <About />
         <BrowerMockup />
       </div>
-      <BackToUp>Top</BackToUp>
     </div>
   );
 };

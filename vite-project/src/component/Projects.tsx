@@ -122,7 +122,6 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-      <BackToUp>Top</BackToUp>
     </div>
   );
 };
