@@ -3,14 +3,28 @@ import { FlowBiteHeader } from "./FlowBiteHeader";
 import { About } from "./About";
 import { BrowerMockup } from "./BrowerMockup";
 import BackToUp from "@uiw/react-back-to-top";
-
+import { Chat } from "./Chat";
 export const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-white font-sans text-lg text-black dark:bg-black dark:text-white">
       <FlowBiteHeader />
       <div className="mt-4">
         <About />
-        <BrowerMockup />
+        <div className="bg-base-500 px-4 py-16">
+          <Chat />
+        </div>
+
+        <div className="join join-vertical w-full">
+          <div className="collapse join-item collapse-arrow border border-base-300">
+            <input type="radio" name="my-accordion-4"  />
+            <div className="collapse-title text-xl font-medium">
+              Click to open my resume
+            </div>
+            <div className="collapse-content">
+              <BrowerMockup />
+            </div>
+          </div>
+        </div>
       </div>
       <BackToUp>Top</BackToUp>
     </div>

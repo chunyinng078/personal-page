@@ -97,9 +97,6 @@ export const About = (): JSX.Element => {
         </div>
       </div>
       
-      {/* <div className="bg-base-500  px-4 py-16">
-        <Chat />
-      </div> */}
     </section>
   );
 };
