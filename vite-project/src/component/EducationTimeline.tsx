@@ -91,7 +91,6 @@ export const EducationTimeline = () => {
           </li>
         </ul>
       </div>
-
     </>
   );
 };

@@ -12,7 +12,7 @@ export const FlowBiteHeader = () => {
   });
 
   return (
-    <div className="navbar absolute sticky top-0 z-10 flex bg-base-100">
+    <div className="navbar sticky top-0 z-10 flex bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -48,6 +48,14 @@ export const FlowBiteHeader = () => {
             <HeaderList key={item.id} item={item} />
           ))}
         </ul>
+      </div>
+      <div className="navbar-end">
+        <label className="swap swap-flip text-xl">
+          <input type="checkbox" />
+
+          <div className="swap-on">😈</div>
+          <div className="swap-off">😇</div>
+        </label>
       </div>
     </div>
   );

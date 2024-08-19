@@ -17,7 +17,7 @@ export const Chat = () => {
           Edwin
           <time className="text-xs opacity-50"> 12:45</time>
         </div>
-        <div className="chat-bubble bg-slate-700	">Lets know more about me!</div>
+        <div className="chat-bubble bg-slate-700 text-white">Lets know more about me!</div>
         <div className="chat-footer opacity-50">Delivered</div>
       </div>
       <div className="chat chat-end">
@@ -33,7 +33,7 @@ export const Chat = () => {
           You
           <time className="text-xs opacity-50"> 12:46</time>
         </div>
-        <div className="chat-bubble bg-slate-700	">Let's see!</div>
+        <div className="chat-bubble bg-slate-700 text-white">Let's see!</div>
         <div className="chat-footer opacity-50">Seen at 12:46</div>
       </div>
     </>

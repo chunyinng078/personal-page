@@ -38,7 +38,7 @@ export const About = (): JSX.Element => {
             </span>
           </a>
           <button
-            className="btn text-white"
+            className="btn text-white mt-4"
             onClick={() =>
               (
                 document.getElementById("my_modal_1") as HTMLDialogElement
@@ -49,7 +49,9 @@ export const About = (): JSX.Element => {
           </button>
           <dialog id="my_modal_1" className="modal">
             <div className="modal-box">
-              <h3 className="text-lg font-bold"> Please feel free to contact me at:
+              <h3 className="text-lg font-bold">
+                {" "}
+                Please feel free to contact me at:
               </h3>
               <p className="py-4">
                 <br />
@@ -96,7 +98,6 @@ export const About = (): JSX.Element => {
           </dialog>
         </div>
       </div>
-      
     </section>
   );
 };
