@@ -14,17 +14,10 @@ export const Home = () => {
           <Chat />
         </div>
 
-        <div className="join join-vertical w-full">
-          <div className="collapse join-item collapse-arrow border border-base-300">
-            <input type="radio" name="my-accordion-4"  />
-            <div className="collapse-title text-xl font-medium">
-              Click to open my resume
-            </div>
-            <div className="collapse-content">
-              <BrowerMockup />
-            </div>
-          </div>
-        </div>
+        <BrowerMockup />
+
+
+        
       </div>
       <BackToUp>Top</BackToUp>
     </div>
