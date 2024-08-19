@@ -1318,19 +1318,6 @@ html {
   justify-self: end;
 }
 
-.mockup-browser {
-  position: relative;
-  overflow: hidden;
-  overflow-x: auto;
-  border-radius: var(--rounded-box, 1rem);
-}
-
-.mockup-browser pre[data-prefix]:before {
-  content: attr(data-prefix);
-  display: inline-block;
-  text-align: right;
-}
-
 .modal {
   pointer-events: none;
   position: fixed;
@@ -2680,10 +2667,6 @@ details.collapse summary::-webkit-details-marker {
 
 .w-full {
   width: 100%;
-}
-
-.max-w-full {
-  max-width: 100%;
 }
 
 .max-w-xl {

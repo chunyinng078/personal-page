@@ -5,8 +5,8 @@ import { Chat } from "./Chat";
 
 export const BrowerMockup = () => {
   return (
-    <div className="mockup-browser bg-base-300 border px-3 !max-w-screen-md">
-      <div className="mockup-browser-toolbar !w-1/2">
+    <div className="bg-base-300 border px-3 ">
+      <div className="mockup-browser-toolbar">
         <div className="input">https://edwinng.com/</div>
       </div>
 
