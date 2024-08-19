@@ -1,6 +1,7 @@
 import React from "react";
 import ProfileImage from "./ProfileImage";
 import personalInfo from "../data/personalInfo.json";
+import { Chat } from "./Chat";
 import {
   MailOutlined,
   PhoneOutlined,
@@ -94,6 +95,10 @@ export const About = (): JSX.Element => {
             </div>
           </dialog>
         </div>
+      </div>
+      
+      <div className="bg-base-500  px-4 py-16">
+        <Chat />
       </div>
     </section>
   );

@@ -9,7 +9,7 @@ import { Projects } from "./component/Projects";
 
 const App = () => {
   return (
-    <div className="overflow-x-hidden">
+    <div className="">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<div>Home</div>} />

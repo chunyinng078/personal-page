@@ -10,9 +10,6 @@ export const BrowerMockup = () => {
         My Resume
       </div>
 
-      <div className="bg-base-500  px-4 py-16">
-        <Chat />
-      </div>
 
       <div className="mockup-browser-tabs p-5">
         <div className="mockup-browser-tab bg-base-200">
