@@ -12,7 +12,7 @@ export const FlowBiteHeader = () => {
   });
 
   return (
-    <div className="navbar flex bg-base-100 top-0 sticky z-10 absolute">
+    <div className="navbar absolute sticky top-0 z-10 flex bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,7 +33,7 @@ export const FlowBiteHeader = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
           >
             {data.items.map((item) => (
               <HeaderList key={item.id} item={item} />
