@@ -1,6 +1,6 @@
 import React from "react";
 import { FlowBiteHeader } from "./FlowBiteHeader";
-import ScrollToTop from "react-scroll-to-top";
+import BackToUp from '@uiw/react-back-to-top';
 
 export const Projects = () => {
   return (
@@ -122,7 +122,7 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-      <ScrollToTop className="" smooth />
+      <BackToUp>Top</BackToUp>
 
     </div>
   );
