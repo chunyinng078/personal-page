@@ -30,7 +30,7 @@ export const About = (): JSX.Element => {
           <a
             className="text-xl"
             target="_blank"
-            href="https://drive.google.com/file/d/1D9ng6TfP-dCUZog9HNcKWc4xPxyDcjiN/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Jtoi7xSYXggd4g5FQ-aJjKbUPRgpGCi1/view?usp=sharing"
           >
             <CloudDownloadOutlined />{" "}
             <span className="font-medium text-blue-600 underline hover:no-underline dark:text-blue-500">
