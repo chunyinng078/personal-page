@@ -10,15 +10,23 @@ import { Projects } from "./component/Projects";
 const App = () => {
   return (
     <div className="">
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<div>Home</div>} />
-        <Route index element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
-    </BrowserRouter>
-  </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<div>Home</div>} />
+        </Routes>
+        <Routes>
+          <Route index element={<Home />} />
+        </Routes>
+
+        <Routes>
+          <Route path="/home" element={<Home />} />
+        </Routes>
+
+        <Routes>
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 };
 export default App;
