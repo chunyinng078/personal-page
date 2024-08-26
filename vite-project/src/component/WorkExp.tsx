@@ -65,13 +65,7 @@ export const WorkExp = () => {
             <li>
               Follow Figma UI design wireframe to modify template to complete a
               responsive website layout with HTML, JavaScript, Tailwind CSS, and
-              framer motion:{" "}
-              <a
-                href="https://www.luisortet.com"
-                className="font-medium text-blue-600 underline hover:no-underline dark:text-blue-500"
-              >
-                https://www.luisortet.com
-              </a>
+              framer motion
             </li>
 
             <li>Involved in projects that use Git, Joomla, and PHP</li>
