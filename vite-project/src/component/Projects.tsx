@@ -41,6 +41,7 @@ export const Projects = () => {
               Set up and create webhook to check data, if environmental data
               exceeding threshold, there will be email notification.
             </li>
+            <li>https://lorawan-plant-monitor.online/</li>
           </ul>
           <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
             <div className="badge badge-primary text-white">IoT</div>
