@@ -111,7 +111,6 @@ export const Projects = () => {
               JavaScript, Tailwind CSS, and framer motion
             </li>
             <li>Modify animation</li>
-            <li>https://www.luisortet.com/ </li>
           </ul>
           <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
             <div className="badge badge-primary text-white">NextJS</div>
