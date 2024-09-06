@@ -1,29 +1,25 @@
 {
     "course":[
         {
-            "courseCode":"COMP4913",
+            "courseCode":"ITE4116M",
             "courseName":"Final Year Project",
             "grade":"A-"
         },
         {
-            "courseCode":"COMP4121",
-            "courseName":"E-Commerce Technology design and development",
-            "grade":"A+"
-        },  
-        {
-            "courseCode":"COMP3421",
-            "courseName":"Web Application Development",
-            "grade":"A-"
+            "courseCode":"ITP4511",
+            "courseName":"Enterprise System Development",
+            "grade":"A"
         },
         {
-            "courseCode":"COMP4442",
-            "courseName":"Service and Cloud Computing",
-            "grade":"B+"
+            "courseCode":"ITP4512",
+            "courseName":"Enterprise Software",
+            "grade":"A"
         },
         {
-            "courseCode":"COMP3335",
-            "courseName":"Database Security",
+            "courseCode":"ITP4501",
+            "courseName":"Programming Techniques for Mobile Systems",
             "grade":"A"
         }
+
     ]
 }
