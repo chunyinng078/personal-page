@@ -1,5 +1,6 @@
 import React from "react";
 import polyu from "../data/polyu.json";
+import ive from "../data/ive.json";
 import { EducationTimeline } from "./EducationTimeline";
 // index.css
 
@@ -64,7 +65,7 @@ export const Education = () => {
                 </tr>
               </thead>
               <tbody>
-                {polyu.course.map((item) => (
+                {ive.course.map((item) => (
                   <tr key={item.courseCode}>
                     <td>{item.courseCode}</td>
                     <td>{item.courseName}</td>
