@@ -12,6 +12,67 @@ export const Projects = () => {
         <div className="card-body">
           <div className="flex flex-col justify-between text-xl md:flex-row">
             <span className="font-bold">
+              VR fire training game - IVE Software Engineering FYP
+            </span>
+            <span className="font-medium">2022</span>
+          </div>
+          <ul className="list-inside list-disc">
+            <li>
+              This is a 4 people final year school project in IVE. This
+              project uses the VR technologies to simulate the fire training.
+            </li>
+            <li>
+              Implemented the game tools like fire extinguisher and fire sand bucket.
+            </li>
+            <li>
+              Implemented health system and timer system.
+            </li>
+            <li>Set up domain with Hostinger and database with phpMyAdmin.</li>
+          </ul>
+          <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
+            <div className="badge badge-primary text-white">VR</div>
+            <div className="badge badge-primary text-white">Unity3D</div>
+            <div className="badge badge-primary text-white">C#</div>
+          </div>
+        </div>
+      </div>
+
+ {/* one more card */}
+ <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
+        <div className="card-body">
+          <div className="flex flex-col justify-between text-xl md:flex-row">
+            <span className="font-bold">
+              Single page website - Internship project
+            </span>
+            <span className="font-medium">2023</span>
+          </div>
+          <ul className="list-inside list-disc">
+            <li>
+              This is an internship experience to implement the front end of the
+              website to show information of the customer.
+            </li>
+            <li>
+              Follow Figma UI design wireframe from the designer to modify
+              template to complete a responsive website layout with HTML,
+              JavaScript, Tailwind CSS, and framer motion
+            </li>
+            <li>Modify animation</li>
+          </ul>
+          <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
+            <div className="badge badge-primary text-white">NextJS</div>
+            <div className="badge badge-primary text-white">Tailwind</div>
+            <div className="badge badge-primary text-white">Framer motion</div>
+            <div className="badge badge-primary text-white">
+              Responsive web design
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
+        <div className="card-body">
+          <div className="flex flex-col justify-between text-xl md:flex-row">
+            <span className="font-bold">
               Environmental sensing with LoRaWAN - PolyU Computing degree FYP
             </span>
             <span className="font-medium">2024</span>
@@ -24,11 +85,11 @@ export const Projects = () => {
               using technologies of LoRaWAN and Arduino.
             </li>
             <li>
-              Implement system following the LoRaWAN architecture (end nodes,
+              Implemented the system by following the LoRaWAN architecture (end nodes,
               gateway, network server, application server)
             </li>
             <li>
-              Implement function like login/logout, Two-step verification with
+              Implemented functions like login/logout, Two-step verification with
               email, Live data view, Record Search, CRUD for account and related
               objects in the project.
             </li>
@@ -41,7 +102,10 @@ export const Projects = () => {
               Set up and create webhook to check data, if environmental data
               exceeding threshold, there will be email notification.
             </li>
-            <li>https://lorawan-plant-monitor.online/</li>
+            <li>
+
+              <a className="link" href="https://lorawan-plant-monitor.online/" target="_blank" rel="noreferrer">Go to the site</a>
+            </li>
           </ul>
           <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
             <div className="badge badge-primary text-white">IoT</div>
@@ -69,12 +133,12 @@ export const Projects = () => {
               kinds of stuff from the website.
             </li>
             <li>
-              Implement the front end of the customer related parts, including
+              Implemented the front end of the customer related parts, including
               login/logout, product list/search/view/filter/cart
             </li>
-            <li>Implement cart with local storage</li>
+            <li>Implemented cart with local storage</li>
             <li>
-              - Building front-end to send customer request to backend with
+              Building front-end to send customer request to backend with
               Https request (Axios) and handle the responses from the backend
               server
             </li>
@@ -91,38 +155,43 @@ export const Projects = () => {
         </div>
       </div>
 
-      {/* one more card */}
-      <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
+     
+
+
+       {/* card to show my IT projects */}
+       <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
         <div className="card-body">
           <div className="flex flex-col justify-between text-xl md:flex-row">
             <span className="font-bold">
-              Single page website - Intership project
+              A booking app prototpe
             </span>
-            <span className="font-medium">2023</span>
+            <span className="font-medium">2024</span>
           </div>
           <ul className="list-inside list-disc">
             <li>
-              This is an internship experience to implement the front end of the
-              website to show information of the customer.
+              This is a booking app prototype. The app is for the user to book a timeslot of a trading shop to exchange the currency.
             </li>
             <li>
-              Follow Figma UI design wireframe from the designer to modify
-              template to complete a responsive website layout with HTML,
-              JavaScript, Tailwind CSS, and framer motion
+              Implemented functions like login/logout/signup, booking, and cancel booking.
             </li>
-            <li>Modify animation</li>
+            <li>
+              Fetch API in the backend PHP server to get the latest currency rate set by the shop every few second.
+            </li>
+            <li> 
+              <a className="link" href="https://play.google.com/store/apps/details?id=com.wedragon.exchange" target="_blank" rel="noreferrer">Google Play Store</a></li>
           </ul>
           <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
-            <div className="badge badge-primary text-white">NextJS</div>
-            <div className="badge badge-primary text-white">Tailwind</div>
-            <div className="badge badge-primary text-white">Framer motion</div>
-            <div className="badge badge-primary text-white">
-              Responsive web design
-            </div>
+            <div className="badge badge-primary text-white">Ionic (ReactJS)</div>
+            <div className="badge badge-primary text-white">App</div>
+            <div className="badge badge-primary text-white">API</div>
           </div>
         </div>
       </div>
+
       <BackToUp>Top</BackToUp>
+
+
+
     </div>
   );
 };
