@@ -7,7 +7,7 @@
         },
         {
             "courseCode":"COMP4121",
-            "courseName":"E-Commerce Technology design and development",
+            "courseName":"E-Commerce Technology and Applications",
             "grade":"A+"
         },  
         {
@@ -23,6 +23,16 @@
         {
             "courseCode":"COMP3335",
             "courseName":"Database Security",
+            "grade":"A"
+        },
+        {
+            "courseCode":"COMP4431",
+            "courseName":"Artificial Intelligence",
+            "grade":"C+"
+        },
+        {
+            "courseCode":"COMP3122",
+            "courseName":"Information System Development",
             "grade":"A"
         }
     ]
