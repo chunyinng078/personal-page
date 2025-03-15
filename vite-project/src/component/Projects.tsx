@@ -155,7 +155,30 @@ export const Projects = () => {
         </div>
       </div>
 
-     
+      <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
+        <div className="card-body">
+          <div className="flex flex-col justify-between text-xl md:flex-row">
+            <span className="font-bold">
+            An assessment system for students’ performance on GitHub - School project
+            </span>
+            <span className="font-medium">2024</span>
+          </div>
+          <ul className="list-inside list-disc">
+            <li>
+            Developed an assessment system that integrates GitHub APIs to retrieve student data,
+            leveraging LLM to analyze performance and generate comprehensive reports.
+            </li>
+          </ul>
+          <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
+            <div className="badge badge-primary text-white">Python - Flask</div>
+            <div className="badge badge-primary text-white">HTML/CSS/JS</div>
+            <div className="badge badge-primary text-white">Chart,js</div>
+            <div className="badge badge-primary text-white">GitHub APIs</div>
+            <div className="badge badge-primary text-white">ChatGPT API</div>
+            <div className="badge badge-primary text-white">LLM</div>
+          </div>
+        </div>
+      </div>
 
 
        {/* card to show my IT projects */}
