@@ -13,10 +13,10 @@ export const BrowerMockup = () => {
 
       <div className="mockup-browser-tabs p-5">
         <div className="mockup-browser-tab bg-base-200">
-          <Education />
+          <WorkExp />
         </div>
         <div className="mockup-browser-tab bg-base-200">
-          <WorkExp />
+          <Education />
         </div>
         <div className="mockup-browser-tab bg-base-200"></div>
       </div>
