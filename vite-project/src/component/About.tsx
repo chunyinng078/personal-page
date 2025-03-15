@@ -1,7 +1,6 @@
 import React from "react";
 import ProfileImage from "./ProfileImage";
 import personalInfo from "../data/personalInfo.json";
-import { Chat } from "./Chat";
 import {
   MailOutlined,
   PhoneOutlined,
