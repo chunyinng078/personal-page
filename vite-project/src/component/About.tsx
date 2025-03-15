@@ -18,10 +18,10 @@ export const About = (): JSX.Element => {
           <h1 className="pb-8 text-4xl font-bold md:pb-0">
             {personalInfo.name}
           </h1>
-          <h2 className="text-2xl font-semibold">Web developer</h2>
+          <h2 className="text-2xl font-semibold">Web developer / Programmer</h2>
           <p>
-            I am a computing student graduated at the Hong Kong Polytechnic
-            University this year (2024).
+            I am a junior programmer graduated at the Hong Kong Polytechnic
+            University in 2024.
           </p>
           <br />
           <p className="text-xl">Experinces in: Web Development, fullstack, IoT, Digital Report</p>
