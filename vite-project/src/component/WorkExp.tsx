@@ -20,7 +20,7 @@ export const WorkExp = () => {
           <p className="">Software Engineer</p>
           <ul className="list-inside list-disc">
             <li>
-              Implemented web system functionalities for <b>government projects</b>
+              Implemented web system functionalities for <b>government projects</b> 
               utilizing Java Spring Boot (Spring MVC), SQL, HTML/CSS/JavaScript
               and Thymeleaf.
             </li>
