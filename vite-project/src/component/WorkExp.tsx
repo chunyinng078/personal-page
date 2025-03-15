@@ -20,7 +20,7 @@ export const WorkExp = () => {
           <p className="">Software Engineer</p>
           <ul className="list-inside list-disc">
             <li>
-              Implemented web system functionalities for government projects
+              Implemented web system functionalities for <b>government projects</b>
               utilizing Java Spring Boot (Spring MVC), SQL, HTML/CSS/JavaScript
               and Thymeleaf.
             </li>
@@ -48,7 +48,7 @@ export const WorkExp = () => {
               Develop e-commerce platform prototype with PHP, JS, Bootstrap and
               Stripe payment gateway
             </li>
-            <li>Develop Ionic app prototype with React JS</li>
+            <li>Develop Ionic <b>app</b> prototype with React JS</li>
           </ul>
         </div>
       </div>
