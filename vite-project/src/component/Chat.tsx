@@ -9,7 +9,7 @@ export const Chat = () => {
           <div className="w-10 rounded-full">
             <img
               alt="Tailwind CSS chat bubble component"
-              src="https://media.licdn.com/dms/image/v2/D5603AQFfHuAcWR1LQQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1680277175421?e=1729123200&v=beta&t=YtRgSbKYjUhkOhSyXCRn5ZyC3Zd_EX1eS158G0h8HgY"
+              src="https://media.licdn.com/dms/image/v2/D5635AQHdjmGLnwpcyA/profile-framedphoto-shrink_400_400/B56ZWZreoVGsAc-/0/1742040066941?e=1742648400&v=beta&t=O-QjAfOhimPxmYvb3LpEvW09pAs4pXyWfxPXtF0IrKc"
             />
           </div>
         </div>
