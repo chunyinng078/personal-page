@@ -24,12 +24,12 @@ export const About = (): JSX.Element => {
             University in 2024.
           </p>
           <br />
-          <p className="text-xl">Experinces in: Web Development, fullstack, IoT, Digital Report</p>
+          <p className="text-xl">Experince in: Web Development, fullstack, IoT, Digital Report</p>
           <br />
           <a
             className="text-xl"
             target="_blank"
-            href="https://drive.google.com/file/d/1D_Ar3w7Uio1hvz9wtKNh6cL4kBpo8lx7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1sIgqksLNuJwV69ZlAylQBCbDQPEuvYn6/view?usp=sharing"
           >
             <CloudDownloadOutlined />{" "}
             <span className="font-medium text-blue-600 underline hover:no-underline dark:text-blue-500">
