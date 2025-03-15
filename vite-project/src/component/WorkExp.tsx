@@ -70,7 +70,7 @@ export const WorkExp = () => {
         <div className="card-body">
           <div className="flex flex-col justify-between text-xl md:flex-row">
             <span className="font-bold">YAKOO Technology Limited</span>
-            <span className="font-medium">05 Jun 2023 – 02 Aug 2023</span>
+            <span className="font-medium">Jun 2023 – Aug 2023</span>
           </div>
           <p className="">Web Developer Intern (Stem)</p>
           <ul className="list-inside list-disc">
