@@ -12,17 +12,8 @@ const App = () => {
     <div className="">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={""} />
-        </Routes>
-        <Routes>
-          <Route index element={<Home />} />
-        </Routes>
-
-        <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-        </Routes>
-
-        <Routes>
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </BrowserRouter>
