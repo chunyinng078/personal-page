@@ -25,7 +25,7 @@ export const About = (): JSX.Element => {
             University this year (2024).
           </p>
           <br />
-          <p className="text-xl">Interest: Web Development, fullstack, IoT</p>
+          <p className="text-xl">Experince in: Web Development, fullstack, IoT, Digital Report</p>
           <br />
           <a
             className="text-xl"
