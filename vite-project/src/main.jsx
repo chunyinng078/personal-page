@@ -5,6 +5,10 @@ import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "./style.css";
 
+
+// Add the dark class to the html element
+document.documentElement.classList.add('dark');
+
 createRoot(document.getElementById("root")).render(
   // <StrictMode>
   <>
