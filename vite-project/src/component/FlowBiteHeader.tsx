@@ -1,5 +1,6 @@
 import React from "react";
 import { HeaderList } from "./HeaderList";
+import { Link } from "react-router-dom";
 import data from "../data/nav.json";
 
 export const FlowBiteHeader = () => {
@@ -40,8 +41,7 @@ export const FlowBiteHeader = () => {
             ))}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">EDWIN NG</a>
-      </div>
+        <Link to="/" className="btn btn-ghost text-xl">EDWIN NG</Link>      </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           {data.items.map((item) => (
