@@ -29,7 +29,7 @@ export const About = (): JSX.Element => {
           <a
             className="text-xl"
             target="_blank"
-            href="https://drive.google.com/file/d/1YycpxOUFaHDj7OFeHhKgPSQZ-aniDSP-/view?usp=sharing"
+            href="https://chunyinngsite-portfolio-images.s3.ap-east-1.amazonaws.com/Ng+Chun+Yin+-+CV.pdf"
           >
             <CloudDownloadOutlined />{" "}
             <span className="font-medium text-blue-600 underline hover:no-underline dark:text-blue-500">
