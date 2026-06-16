@@ -40,7 +40,6 @@ export const Projects = () => {
                 Implemented health system and timer system.
               </li>
               <li>Set up domain with Hostinger and database with phpMyAdmin.</li>
-              <li><a className="link" href="https://www.youtube.com/watch?v=" target="_blank" rel="noreferrer">Demo Video</a></li>
             </ul>
             <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
               <div className="badge badge-primary text-white">VR</div>
