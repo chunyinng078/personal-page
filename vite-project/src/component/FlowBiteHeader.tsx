@@ -13,7 +13,7 @@ export const FlowBiteHeader = () => {
   });
 
   return (
-    <div className="navbar sticky top-0 z-10 flex bg-base-100">
+    <div className="navbar sticky top-0 z-10 flex bg-base-100 shadow-lg shadow-gray-700/50">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

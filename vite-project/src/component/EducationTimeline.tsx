@@ -4,6 +4,7 @@ export const EducationTimeline = () => {
     // div center
     <>
       <div className="flex justify-center overflow-auto">
+
         <ul className="timeline">
           <li>
             <div className="timeline-start">2013</div>
@@ -89,8 +90,11 @@ export const EducationTimeline = () => {
               PolyU-Computing(Second-up honor)
             </div>
           </li>
+
         </ul>
+
       </div>
+      <span className="flex justify-left overflow-auto lg:hidden md:hidden">(Timeline scroll to right 👉)</span>
     </>
   );
 };
