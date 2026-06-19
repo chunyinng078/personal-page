@@ -26,16 +26,6 @@ export const About = (): JSX.Element => {
           <br />
           <p className="text-xl">Experience in: Web Development, IoT, Digital Report</p>
           <br />
-          <a
-            className="text-xl"
-            target="_blank"
-            href="https://chunyinngsite-portfolio-images.s3.ap-east-1.amazonaws.com/Ng+Chun+Yin+-+CV.pdf"
-          >
-            <CloudDownloadOutlined />{" "}
-            <span className="font-medium text-blue-600 underline hover:no-underline dark:text-blue-500">
-              Resume <FilePdfOutlined />{" "}
-            </span>
-          </a>
           <button
             className="btn text-white mt-4"
             onClick={() =>
