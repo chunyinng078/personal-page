@@ -12,8 +12,8 @@ export const Projects = () => {
         <div className="card my-2 bg-base-100 shadow-xl xs:w-full md:w-1/2">
           <div className="card-body">
             <div className="flex flex-col justify-between text-xl md:flex-row">
-              <span className="font-bold">
-                Full-Stack Challenge Application - Web & Cloud Project <a className="link" href="https://d2pdyfcra4vp4j.cloudfront.net/" target="_blank" rel="noreferrer">Go to the site</a>
+              <span className="font-bold underline">
+                Full-Stack Challenge Application - Web & Cloud Project
               </span>
               <span className="font-medium">2026</span>
             </div>
@@ -30,6 +30,9 @@ export const Projects = () => {
               <li>
                 Deployed on AWS S3 and EC2, using CloudFront as a unified reverse proxy to natively resolve CORS issues.
               </li>
+              <li>
+                <a className="link text-blue-600" href="https://d2pdyfcra4vp4j.cloudfront.net/" target="_blank" rel="noreferrer">Go to the site</a>
+              </li>
             </ul>
             <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
               <div className="badge badge-primary text-white">React</div>
@@ -42,8 +45,8 @@ export const Projects = () => {
         <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
           <div className="card-body">
             <div className="flex flex-col justify-between text-xl md:flex-row">
-              <span className="font-bold">
-                Environmental sensing with LoRaWAN - PolyU Computing degree FYP <a className="link" href="https://lorawan-plant-monitor.online/" target="_blank" rel="noreferrer">Go to the site</a>
+              <span className="font-bold underline">
+                Environmental sensing with LoRaWAN - PolyU Computing degree FYP
               </span>
               <span className="font-medium">2024</span>
             </div>
@@ -93,6 +96,10 @@ export const Projects = () => {
                 Set up and create webhook to check data, if environmental data
                 exceeding threshold, there will be email notification.
               </li>
+              <li>
+
+                <a className="link text-blue-600" href="https://lorawan-plant-monitor.online/" target="_blank" rel="noreferrer">Go to the site</a>
+              </li>
             </ul>
             <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
               <div className="badge badge-primary text-white">IoT</div>
@@ -108,7 +115,7 @@ export const Projects = () => {
         <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
           <div className="card-body">
             <div className="flex flex-col justify-between text-xl md:flex-row">
-              <span className="font-bold">
+              <span className="font-bold underline">
                 E-commerce website - School project
               </span>
               <span className="font-medium">2024</span>
@@ -160,7 +167,7 @@ export const Projects = () => {
         <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
           <div className="card-body">
             <div className="flex flex-col justify-between text-xl md:flex-row">
-              <span className="font-bold">
+              <span className="font-bold underline">
                 An assessment system for students’ performance on GitHub - School project
               </span>
               <span className="font-medium">2024</span>
@@ -187,7 +194,7 @@ export const Projects = () => {
         <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
           <div className="card-body">
             <div className="flex flex-col justify-between text-xl md:flex-row">
-              <span className="font-bold">
+              <span className="font-bold underline">
                 A booking app prototpe
               </span>
               <span className="font-medium">2024</span>
@@ -215,7 +222,7 @@ export const Projects = () => {
         <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
           <div className="card-body">
             <div className="flex flex-col justify-between text-xl md:flex-row">
-              <span className="font-bold">
+              <span className="font-bold underline">
                 Single page website - Internship project
               </span>
               <span className="font-medium">2023</span>
@@ -247,7 +254,7 @@ export const Projects = () => {
         <div className="card my-2 bg-base-100 shadow-xl xs:w-full md:w-1/2">
           <div className="card-body">
             <div className="flex flex-col justify-between text-xl md:flex-row">
-              <span className="font-bold">
+              <span className="font-bold underline">
                 VR fire training game - IVE Software Engineering FYP
               </span>
               <span className="font-medium">2022</span>
