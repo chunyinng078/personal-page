@@ -41,81 +41,6 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="flex w-full flex-col items-center justify-center my-4 mx-auto px-4">
-        {/* card to show my IT projects */}
-        <div className="card my-2 bg-base-100 shadow-xl xs:w-full md:w-1/2">
-          <div className="card-body">
-            <div className="flex flex-col justify-between text-xl md:flex-row">
-              <span className="font-bold">
-                VR fire training game - IVE Software Engineering FYP
-              </span>
-              <span className="font-medium">2022</span>
-            </div>
-            <div className="wmax-w-2xl mx-auto my-6 px-4">
-              <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-800">
-                <iframe
-                  className="absolute top-0 left-0 w-full h-full"
-                  src="https://www.youtube.com/embed/fuCPaIMG0pk"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </div>
-            <ul className="list-inside list-disc">
-              <li>
-                This is a 4 people final year school project in IVE. This
-                project uses the VR technologies to simulate the fire training.
-              </li>
-              <li>
-                Implemented the game tools like fire extinguisher and fire sand bucket.
-              </li>
-              <li>
-                Implemented health system and timer system.
-              </li>
-              <li>Set up domain with Hostinger and database with phpMyAdmin.</li>
-            </ul>
-            <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
-              <div className="badge badge-primary text-white">VR</div>
-              <div className="badge badge-primary text-white">Unity3D</div>
-              <div className="badge badge-primary text-white">C#</div>
-            </div>
-          </div>
-        </div>
-
-        {/* one more card */}
-        <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
-          <div className="card-body">
-            <div className="flex flex-col justify-between text-xl md:flex-row">
-              <span className="font-bold">
-                Single page website - Internship project
-              </span>
-              <span className="font-medium">2023</span>
-            </div>
-            <ul className="list-inside list-disc">
-              <li>
-                This is an internship experience to implement the front end of the
-                website to show information of the customer.
-              </li>
-              <li>
-                Follow Figma UI design wireframe from the designer to modify
-                template to complete a responsive website layout with HTML,
-                JavaScript, Tailwind CSS, and framer motion
-              </li>
-              <li>Modify animation</li>
-            </ul>
-            <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
-              <div className="badge badge-primary text-white">NextJS</div>
-              <div className="badge badge-primary text-white">Tailwind</div>
-              <div className="badge badge-primary text-white">Framer motion</div>
-              <div className="badge badge-primary text-white">
-                Responsive web design
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
           <div className="card-body">
@@ -292,6 +217,81 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+
+        {/* one more card */}
+        <div className="card my-2 bg-base-100 shadow-xl sm:w-full md:w-1/2">
+          <div className="card-body">
+            <div className="flex flex-col justify-between text-xl md:flex-row">
+              <span className="font-bold">
+                Single page website - Internship project
+              </span>
+              <span className="font-medium">2023</span>
+            </div>
+            <ul className="list-inside list-disc">
+              <li>
+                This is an internship experience to implement the front end of the
+                website to show information of the customer.
+              </li>
+              <li>
+                Follow Figma UI design wireframe from the designer to modify
+                template to complete a responsive website layout with HTML,
+                JavaScript, Tailwind CSS, and framer motion
+              </li>
+              <li>Modify animation</li>
+            </ul>
+            <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
+              <div className="badge badge-primary text-white">NextJS</div>
+              <div className="badge badge-primary text-white">Tailwind</div>
+              <div className="badge badge-primary text-white">Framer motion</div>
+              <div className="badge badge-primary text-white">
+                Responsive web design
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* card to show my IT projects */}
+        <div className="card my-2 bg-base-100 shadow-xl xs:w-full md:w-1/2">
+          <div className="card-body">
+            <div className="flex flex-col justify-between text-xl md:flex-row">
+              <span className="font-bold">
+                VR fire training game - IVE Software Engineering FYP
+              </span>
+              <span className="font-medium">2022</span>
+            </div>
+            <div className="wmax-w-2xl mx-auto my-6 px-4">
+              <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-800">
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/fuCPaIMG0pk"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+            <ul className="list-inside list-disc">
+              <li>
+                This is a 4 people final year school project in IVE. This
+                project uses the VR technologies to simulate the fire training.
+              </li>
+              <li>
+                Implemented the game tools like fire extinguisher and fire sand bucket.
+              </li>
+              <li>
+                Implemented health system and timer system.
+              </li>
+              <li>Set up domain with Hostinger and database with phpMyAdmin.</li>
+            </ul>
+            <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
+              <div className="badge badge-primary text-white">VR</div>
+              <div className="badge badge-primary text-white">Unity3D</div>
+              <div className="badge badge-primary text-white">C#</div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
 
       <BackToUp>Top</BackToUp>
