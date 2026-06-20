@@ -1,0 +1,85 @@
+[
+  {
+    "title": "Full-Stack Challenge Application - Web & Cloud Project",
+    "year": "2026",
+    "bullets": [
+      "Developed a full-stack challenge tracking application designed with a clean, scalable 3-tier architecture.",
+      "Built a responsive React user interface that communicates seamlessly with a Java Spring Boot REST API.",
+      "Integrated a relational MySQL database with Spring Data JPA for persistent and structured data storage.",
+      "Deployed on AWS S3 and EC2, using CloudFront as a unified reverse proxy to natively resolve CORS issues."
+    ],
+    "link": "https://d2pdyfcra4vp4j.cloudfront.net/",
+    "badges": ["React", "Spring Boot", "AWS Cloud"]
+  },
+  {
+    "title": "Environmental sensing with LoRaWAN - PolyU Computing degree FYP",
+    "year": "2024",
+    "videos": [
+      "https://www.youtube.com/embed/vliZpw7Myak",
+      "https://www.youtube.com/embed/oPejHBNpKV4"
+    ],
+    "bullets": [
+      "This is a one-person final year school project in PolyU. This project explores the possibility of developing a cost-effective plant monitoring system to achieve automation of plant monitoring using technologies of LoRaWAN and Arduino.",
+      "Implemented the system by following the LoRaWAN architecture (end nodes, gateway, network server, application server)",
+      "Implemented functions like login/logout, Two-step verification with email, Live data view, Record Search, CRUD for account and related objects in the project.",
+      "Set up domain with Hostinger and database with phpMyAdmin.",
+      "Encryption: Encrypts data with AES-256-CBC. Users’ password is hashed with sha256 and salt to protect it during data transfer.",
+      "Set up and create webhook to check data, if environmental data exceeding threshold, there will be email notification."
+    ],
+    "link": "https://lorawan-plant-monitor.online/",
+    "badges": ["IoT", "Arduino", "PHP", "TheThingsStack", "Chart.js", "Encryption"]
+  },
+  {
+    "title": "E-commerce website - School project",
+    "year": "2024",
+    "videos": ["https://www.youtube.com/embed/s0nMpaUCarM"],
+    "bullets": [
+      "This is a 4 people school project. An online department store was developed. The website called “The Shop”, customers can buy all kinds of stuff from the website.",
+      "Implemented the front end of the customer related parts, including login/logout, product list/search/view/filter/cart",
+      "Implemented cart with local storage",
+      "Building front-end to send customer request to backend with Https request (Axios) and handle the responses from the backend server",
+      "Styling part of the front end with Bootstrap"
+    ],
+    "badges": ["ReactJS", "Http request", "Axios", "Bootstrap", "Docker", "Front-end"]
+  },
+  {
+    "title": "An assessment system for students’ performance on GitHub - School project",
+    "year": "2024",
+    "bullets": [
+      "Developed an assessment system that integrates GitHub APIs to retrieve student data, leveraging LLM to analyze performance and generate comprehensive reports."
+    ],
+    "badges": ["Python - Flask", "HTML/CSS/JS", "Chart,js", "GitHub APIs", "ChatGPT API", "LLM"]
+  },
+  {
+    "title": "A booking app prototype",
+    "year": "2024",
+    "bullets": [
+      "This is a booking app prototype. The app is for the user to book a timeslot of a trading shop to exchange the currency.",
+      "Implemented functions like login/logout/signup, booking, and cancel booking.",
+      "Fetch API in the backend PHP server to get the latest currency rate set by the shop every few second."
+    ],
+    "badges": ["Ionic (ReactJS)", "App", "API"]
+  },
+  {
+    "title": "Single page website - Internship project",
+    "year": "2023",
+    "bullets": [
+      "This is an internship experience to implement the front end of the website to show information of the customer.",
+      "Follow Figma UI design wireframe from the designer to modify template to complete a responsive website layout with HTML, JavaScript, Tailwind CSS, and framer motion",
+      "Modify animation"
+    ],
+    "badges": ["NextJS", "Tailwind", "Framer motion", "Responsive web design"]
+  },
+  {
+    "title": "VR fire training game - IVE Software Engineering FYP",
+    "year": "2022",
+    "videos": ["https://www.youtube.com/embed/fuCPaIMG0pk"],
+    "bullets": [
+      "This is a 4 people final year school project in IVE. This project uses the VR technologies to simulate the fire training.",
+      "Implemented the game tools like fire extinguisher and fire sand bucket.",
+      "Implemented health system and timer system.",
+      "Set up domain with Hostinger and database with phpMyAdmin."
+    ],
+    "badges": ["VR", "Unity3D", "C#"]
+  }
+]
