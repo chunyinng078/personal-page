@@ -13,7 +13,7 @@ export const Projects = () => {
           <div className="card-body">
             <div className="flex flex-col justify-between text-xl md:flex-row">
               <span className="font-bold">
-                Full-Stack Challenge Application - Web & Cloud Project
+                Full-Stack Challenge Application - Web & Cloud Project <a className="link" href="https://d2pdyfcra4vp4j.cloudfront.net/" target="_blank" rel="noreferrer">Go to the site</a>
               </span>
               <span className="font-medium">2026</span>
             </div>
@@ -30,9 +30,6 @@ export const Projects = () => {
               <li>
                 Deployed on AWS S3 and EC2, using CloudFront as a unified reverse proxy to natively resolve CORS issues.
               </li>
-              <li>
-                <a className="link" href="https://d2pdyfcra4vp4j.cloudfront.net/" target="_blank" rel="noreferrer">Go to the site</a>
-              </li>
             </ul>
             <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
               <div className="badge badge-primary text-white">React</div>
@@ -46,7 +43,7 @@ export const Projects = () => {
           <div className="card-body">
             <div className="flex flex-col justify-between text-xl md:flex-row">
               <span className="font-bold">
-                Environmental sensing with LoRaWAN - PolyU Computing degree FYP
+                Environmental sensing with LoRaWAN - PolyU Computing degree FYP <a className="link" href="https://lorawan-plant-monitor.online/" target="_blank" rel="noreferrer">Go to the site</a>
               </span>
               <span className="font-medium">2024</span>
             </div>
@@ -95,10 +92,6 @@ export const Projects = () => {
               <li>
                 Set up and create webhook to check data, if environmental data
                 exceeding threshold, there will be email notification.
-              </li>
-              <li>
-
-                <a className="link" href="https://lorawan-plant-monitor.online/" target="_blank" rel="noreferrer">Go to the site</a>
               </li>
             </ul>
             <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
