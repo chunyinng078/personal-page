@@ -8,6 +8,42 @@ export const Projects = () => {
       <FlowBiteHeader />
 
       <div className="flex w-full flex-col items-center justify-center my-4 mx-auto px-4">
+        {/* Card to show my Full-Stack Challenge App */}
+        <div className="card my-2 bg-base-100 shadow-xl xs:w-full md:w-1/2">
+          <div className="card-body">
+            <div className="flex flex-col justify-between text-xl md:flex-row">
+              <span className="font-bold">
+                Full-Stack Challenge Application - Web & Cloud Project
+              </span>
+              <span className="font-medium">2026</span>
+            </div>
+            <ul className="list-inside list-disc">
+              <li>
+                Developed a full-stack challenge tracking application designed with a clean, scalable 3-tier architecture.
+              </li>
+              <li>
+                Built a responsive React user interface that communicates seamlessly with a Java Spring Boot REST API.
+              </li>
+              <li>
+                Integrated a relational MySQL database with Spring Data JPA for persistent and structured data storage.
+              </li>
+              <li>
+                Deployed on AWS S3 and EC2, using CloudFront as a unified reverse proxy to natively resolve CORS issues.
+              </li>
+              <li>
+                <a className="link" href="https://d2pdyfcra4vp4j.cloudfront.net/" target="_blank" rel="noreferrer">Go to the site</a>
+              </li>
+            </ul>
+            <div className="mt-3 flex flex-row flex-wrap gap-4 text-white">
+              <div className="badge badge-primary text-white">React</div>
+              <div className="badge badge-primary text-white">Spring Boot</div>
+              <div className="badge badge-primary text-white">AWS Cloud</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex w-full flex-col items-center justify-center my-4 mx-auto px-4">
         {/* card to show my IT projects */}
         <div className="card my-2 bg-base-100 shadow-xl xs:w-full md:w-1/2">
           <div className="card-body">
