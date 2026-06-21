@@ -9,6 +9,7 @@
             "Deployed on AWS S3 and EC2, using CloudFront as a unified reverse proxy to natively resolve CORS issues."
         ],
         "link": "https://d2pdyfcra4vp4j.cloudfront.net/",
+        "github": "https://github.com/chunyinng078/ChallengeApp",
         "badges": [
             "React",
             "Spring Boot",
@@ -31,6 +32,7 @@
             "Set up and create webhook to check data, if environmental data exceeding threshold, there will be email notification."
         ],
         "link": "https://lorawan-plant-monitor.online/",
+        "github": "https://github.com/chunyinng078/FinalYearProject-LoRaWAN-PlantMonitor",
         "badges": [
             "IoT",
             "Arduino",
@@ -50,6 +52,8 @@
             "Successfully provisioned automated continuous deployment and custom domain mapping using AWS Amplify and Amazon Route 53.",
             "You are in this site now!!!"
         ],
+        "link": "https://chunyinng078.site/",
+        "github": "https://github.com/chunyinng078/personal-page",
         "badges": [
             "ReactJS",
             "Tailwind CSS",
@@ -71,6 +75,7 @@
             "Building front-end to send customer request to backend with Https request (Axios) and handle the responses from the backend server",
             "Styling part of the front end with Bootstrap"
         ],
+        "github":"https://github.com/chunyinng078/simple-ecommerce-frontend/tree/main",
         "badges": [
             "ReactJS",
             "Http request",

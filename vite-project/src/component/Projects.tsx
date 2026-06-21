@@ -9,7 +9,6 @@ export const Projects = () => {
       <FlowBiteHeader />
 
       <div className="flex w-full flex-col items-center justify-center my-4 mx-auto px-4 gap-4">
-        {/* 用一條 .map 迴圈直接乾淨渲染所有專案！ */}
         {projectsData.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
