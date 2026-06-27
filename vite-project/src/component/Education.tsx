@@ -1,4 +1,3 @@
-import React from "react";
 import polyu from "../data/polyu.json";
 import ive from "../data/ive.json";
 import { EducationTimeline } from "./EducationTimeline";

@@ -1,12 +1,9 @@
-import React from "react";
 import ProfileImage from "./ProfileImage";
 import personalInfo from "../data/personalInfo.json";
 import {
   MailOutlined,
   PhoneOutlined,
   GithubOutlined,
-  CloudDownloadOutlined,
-  FilePdfOutlined,
   LinkedinOutlined,
 } from "@ant-design/icons";
 export const About = (): JSX.Element => {
